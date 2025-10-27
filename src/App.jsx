@@ -1,9 +1,14 @@
-import React from 'react'
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Mainroutes from "./Routes/Mainroutes.jsx";
+import './index.scss'
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Mainroutes />
+    </div>
+  );
+};
 
-export default App
+export default App;
